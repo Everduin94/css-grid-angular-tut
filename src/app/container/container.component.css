@@ -1,0 +1,9 @@
+/* We are in the container */
+:host {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.item0 {
+    grid-column: 1 / span 2;
+}

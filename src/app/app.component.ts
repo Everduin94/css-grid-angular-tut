@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'css-grid-angular-tut';
+
+  gridBuilder = {
+    'grid-template-columns': 'repeat(6, 1fr)',
+  }
+
+
 }
